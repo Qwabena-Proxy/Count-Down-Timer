@@ -7,7 +7,7 @@ sec = int(input('Second:'))
 if len(str(sec)) == 1:
   sec = '0'+(str(sec))
 secc = int(sec)
-hrss = int(hrs)'''
+'''
 while True:
   if len(str(hrs)) == 1:
     h = f'0{hrs}'
