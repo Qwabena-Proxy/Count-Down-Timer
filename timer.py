@@ -4,7 +4,6 @@ hrs = int(input('Hours:'))
 min = int(input('Minute:'))
 sec = int(input('Second:'))
 '''
-  min = '0'+(str(min))
 if len(str(sec)) == 1:
   sec = '0'+(str(sec))
 secc = int(sec)
