@@ -6,7 +6,6 @@ sec = int(input('Second:'))
 '''
 if len(str(sec)) == 1:
   sec = '0'+(str(sec))
-secc = int(sec)
 '''
 while True:
   if len(str(hrs)) == 1:
