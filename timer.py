@@ -3,7 +3,6 @@ from time import sleep as sp
 hrs = int(input('Hours:'))
 min = int(input('Minute:'))
 sec = int(input('Second:'))
-'''
 while True:
   if len(str(hrs)) == 1:
     h = f'0{hrs}'
