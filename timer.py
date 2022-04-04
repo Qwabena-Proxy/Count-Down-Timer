@@ -5,7 +5,7 @@ min = int(input('Minute:'))
 sec = int(input('Second:'))
 '''
 if len(str(sec)) == 1:
-  sec = '0'+(str(sec))
+
 '''
 while True:
   if len(str(hrs)) == 1:
