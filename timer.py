@@ -1,5 +1,6 @@
 from time import sleep as sp
 # checking if user input is a single or double digit
+
 hrs = int(input('Hours:'))
 min = int(input('Minute:'))
 sec = int(input('Second:'))
@@ -18,6 +19,7 @@ while True:
     s = f'{sec}'
   time = f'{h}:{m}:{s}'
   print(time)
+  # decreasing in time
   sec -= 1
   sp(1) 
   if sec == -1:
