@@ -19,6 +19,7 @@ while True:
     s = f'{sec}'
   time = f'{h}:{m}:{s}'
   print(time)
+  
   # decreasing in time
   sec -= 1
   sp(1) 
