@@ -1,5 +1,5 @@
 from time import sleep as sp
-
+ 
 # checking if user input is a single or double digit
 hrs = int(input('Hours:'))
 min = int(input('Minute:'))
