@@ -7,7 +7,7 @@ sec = int(input('Second:'))
 while True:
   if len(str(hrs)) == 1:
     h = f'0{hrs}'
-  else:
+  else: 
     h = f'{hrs}'
   if len(str(min)) == 1:
     m = f'0{min}'
